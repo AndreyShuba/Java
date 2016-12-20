@@ -1,0 +1,11 @@
+import javax.swing.*;
+ 
+public class zapusk {
+    public static void main(String args[]){
+        
+        okno mainFrame = new okno("Labwork #4 Shuba!");
+        mainFrame.setSize(500, 500);
+        mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        mainFrame.setVisible(true);
+    }
+}
